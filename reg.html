@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+<title>REGISTRATION</title>
+<center>
+    <h2>STUDENT REGISTRATION FORM</h2><hr  width="500px">
+</center>
+<style>
+
+    h2{
+        text-align: center;
+        font-variant: small-caps;
+        color: black;
+  text-shadow: 2px 2px 4px white;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url("imagetwo.webp");
+      background-repeat: no-repeat;
+      background-size: 2000px 1000px;
+      padding: 5px;
+      margin: 5px 0 22px 0;
+      display: outline-block;
+      
+    }
+    
+    
+    button{
+        background-color: pink;
+        border: none;
+      color: black;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    form{
+         
+        border: 2px solid black;
+      border-radius: 2px;
+     padding: 5px;
+      width: 400px;
+      margin: 20px;
+      text-align: left;
+    }
+    
+     input[type=text], input[type=password] {
+        width: 350px;
+      padding: 10px;
+      padding-left: 28px;
+      margin: 0px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+      }
+    
+     hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+     P{
+         text-align: left;
+     }
+     </style>
+</head>
+
+
+<body>
+    <Center>
+        <div id="container-fluid">
+            <form>
+                <div>
+                    <p><b>Firstname:</b></p>
+                    <label for="firstname"></label>
+                <input type="text" name="firstname" placeholder="Enter firstname" >
+            
+            
+            
+                <P><b>lastname:</b></P>
+                <!-- <label for="lastname"></label> -->
+                <input type="text" name="lastname" placeholder="Enter lastname">
+            
+            
+                <p><b>Email:</b></p>
+                <!-- <label for="email"></label> -->
+                <input type="text" placeholder="Enter Email" name="email" id="email"> 
+            
+            <div id="formvalidation">
+                <P><b>phone:</b></P>
+                <!-- <label for="phone"></label> -->
+                <input type="text" placeholder="phonenumber" name="spone">
+                
+            </div>
+                
+        <P><b>password:</b></P>
+            <!-- <label for="psw"></label> -->
+        <input type="password" placeholder="Enter Password" name="psw" id="psw">
+    
+    
+        <P><b>Repeat Password:</b></P>
+    <!-- <label for="psw-repeat"></label> -->
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat">
+    
+    <div>
+        <label for="gender-male">Gender: male</label>
+        <input type="radio" name="fav_language" value="male">
+        <label for="gender-male"> Female</label>
+        <input type="radio" name="fav_language" value="female">
+    </div><br>
+    
+    <center>
+    <div>
+        <button type="submit" class="submit">submit</button>
+    </div>
+    
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+      </div>
+    </center>
+    </form>
+
+
+</body>
+
+
+
+</html>

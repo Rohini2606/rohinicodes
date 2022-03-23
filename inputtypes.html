@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+
+<style>
+  form{
+    border: 2px solid black;
+      border-radius: 2px;
+     padding: 5px;
+      width: 400px;
+      margin: 20px;
+      text-align: left;
+  background-color: darkgray;
+  }
+  input  {
+        width:250px;
+      padding: 10px;
+      padding-left: 28px;
+      margin: 0px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+      }
+    
+</style>
+
+
+</head>
+<body>
+    <form>
+      <center>
+        <h1>INPUT TYPES</h1>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <label for="email">Email:</label><br>
+        <input type="Email" id="em" name="email"><br><br>
+        <label for="quantity">Quantity (between 1 and 10):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10"><br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="male">Female</label>
+        <input type="radio" id="female" name="gender" value="female"><br><br>
+       
+        <label for="btec">ECE</label>
+        <input type="checkbox" id="ece" name="ece" value="ece" checked><br>
+        <label for="csc">CSC</label>
+        <input type="checkbox" id="ece" name="ece" value="ece"><br>
+       
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor"><br><br>
+
+
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+
+
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <!-- <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="hidden" id="custId" name="custId" value="3487"> -->
+        <label for="time">Time</label>
+        <input type="Time" id="time" name="time"><br><br>
+
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch"><br><br>
+        
+        <label for="cars">Choose a name:</label>
+
+<select id="name" name="name">
+  <option value="siva"></option>
+  <option value="siva">siva</option>
+  <option value="ravi">ravi</option>
+  <option value="babu">babu</option>
+  <option value="vijay">vijay</option>
+</select><br><br>
+<textarea name="message" rows="10" cols="30">
+  textarea
+  </textarea><br><br>
+
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+<label for="button">Button</label>
+        <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br><br>
+
+
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
+    </center>
+
+
+</body>
+
+
+
+</html>
